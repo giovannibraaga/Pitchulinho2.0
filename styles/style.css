@@ -63,3 +63,12 @@ body {
 .bg-sobre {
     background-color: var(--bg-sobre);
 }
+
+.card {
+  box-shadow: .5px .5px 30px #004d00;
+  transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
