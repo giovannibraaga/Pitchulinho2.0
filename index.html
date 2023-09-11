@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=REM:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
     <!-- css -->
@@ -94,6 +94,14 @@
                   <a
                     class="nav-link active texto-navbar fw-bold"
                     aria-current="page"
+                    href="#evento"
+                    >Evento</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active texto-navbar fw-bold"
+                    aria-current="page"
                     href="#contato"
                     >Contato</a
                   >
@@ -106,29 +114,38 @@
     </header>
 
     <main>
-      <section
+      <article
+        class="banners banner-1 d-flex justify-content-center align-items-center"
         id="home"
-        class="banners banner-1 d-flex justify-content-center align-items-center text-center"
       >
-        <div class="banners-titulo fw-bold text-light">
-          <h2 class="fw-bold">Pitchulinho</h2>
-          <p>
-            O Pitchulinho é um robô produzido pela empresa "Eco-Sharpness". Está
-            sendo desenvolvido para o projeto "RoboCup" da FIAP.
-          </p>
-        </div>
-        <div class="banners-titulo">
-          <h2></h2>
-          <p></p>
-        </div>
-      </section>
+        <section class="col-6 col-md-6 col-lg-3 row">
+          <div class="text-start">
+            <h2 class="banners-titulo fw-bold text-light">
+              Conheça Pitchulinho, o nosso robô destemido, pronto para brilhar
+              no palco da RoboCup FIAP.
+            </h2>
+            <a href="#projeto" class="btn btn-success"
+              >Ver Projeto
+              <i class="bi bi-arrow-down-circle ms-1 position-icon"></i
+            ></a>
+          </div>
+        </section>
+
+        <figure class="col-6 col-md-5 col-lg-3 row">
+          <img
+            src="./img/cool-robot-animate.svg"
+            alt="Imagem de um chatBot"
+            class="img-fluid"
+          />
+        </figure>
+      </article>
 
       <section>
         <h3
           id="projeto"
           class="bg-navbar text-center fw-bold texto-verde m-0 border-none bg-sobre py-3"
         >
-          Sobre o Pitchulinho
+          Projeto
         </h3>
       </section>
 
@@ -204,7 +221,7 @@
     <footer class="bg-sobre text-center p-2 fw-bold">
       <p class="text-light mt-3 m-0">
         <i class="bi bi-c-circle" style="color: #008000"></i>
-        <span class="texto-verde">PITCHULINHO 2023</span> - Todos os direitos
+        <span class="texto-verde">Pitchulinho 2023</span> - Todos os direitos
         reservados
       </p>
       <p class="text-light mb-3 m-0">
