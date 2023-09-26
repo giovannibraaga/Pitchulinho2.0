@@ -307,7 +307,7 @@
                 ></iframe>
               </div>
 
-              <div class="col-sm-12 col-md-6">
+              <div class="col-sm-12 col-md-6 pb-5">
                 <iframe
                   width="350"
                   height="315"
@@ -319,6 +319,45 @@
                   allowfullscreen
                 ></iframe>
               </div>
+
+              <button type="button" class="btn btn-success py-3" data-bs-toggle="modal" data-bs-target="#hardwareModal">
+                Hardware
+            </button>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="hardwareModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Especificações de Hardware</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-start">
+                            <ul >
+                                <li>4 micro motores com redutor amarelo</li>
+                                <li>2 rodas e 1 roda boba</li>
+                                <li>6 pilhas AA no conector (total: 9v)</li>
+                                <li>1 Chave liga e desliga</li>
+                                <li>1 Arduino Mega 2550</li>
+                                <li>Driver Controlador para 4 Motores DC (ponte H) L293D</li>
+                                <li>1 Módulo bluetooth h606</li>
+                                <li>2 resistores</li>
+                                <li>1 micro servo</li>
+                                <li>Jumpers MM e MF</li>
+                                <li>Fios de indução</li>
+                                <li>Buzzer - emissor de som</li>
+                                <li>Vareta de balão</li>
+                                <li>Fita led</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
             </div>
           </div>
         </section>
