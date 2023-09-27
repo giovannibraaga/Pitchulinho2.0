@@ -92,3 +92,11 @@ body {
   color: var(--text-color);
   width: 60px
 }
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black; 
+}
