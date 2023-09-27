@@ -86,10 +86,9 @@ body {
   justify-content: center;
 }
 
-/* Estilo personalizado para o card */
 .custom-card {
   max-width: 350px;
-  margin: 0 auto; /* Centraliza o card horizontalmente */
+  margin: 0 auto;
 }
 
 .membros {
