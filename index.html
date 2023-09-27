@@ -110,7 +110,7 @@
                     class="nav-link active texto-navbar fw-bold"
                     aria-current="page"
                     href="./ecosharpness.html"
-                    >EcoSharpness</a
+                    ><i class="bi bi-robot pe-1"></i>EcoSharpness</a
                   >
                 </li>
               </ul>
@@ -131,7 +131,7 @@
               Conheça Pitchulinho, o nosso robô destemido, pronto para brilhar
               no palco da RoboCup FIAP.
             </h2>
-            <a href="#projeto" class="btn btn-success mt-3 fw-bold">Ver Projeto </a>
+            <a href="#projeto" class="btn botao-verde mt-3 fw-bold text-light">Ver Projeto </a>
           </div>
         </section>
 
@@ -319,39 +319,17 @@
                   allowfullscreen
                 ></iframe>
               </div>
-
-              <button type="button" class="btn btn-success py-3" data-bs-toggle="modal" data-bs-target="#hardwareModal">
-                Hardware
-            </button>
         
-            <div class="modal fade" id="hardwareModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Especificações de Hardware</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-start">
-                            <ul >
-                                <li>4 micro motores com redutor amarelo</li>
-                                <li>2 rodas e 1 roda boba</li>
-                                <li>6 pilhas AA no conector (total: 9v)</li>
-                                <li>1 Chave liga e desliga</li>
-                                <li>1 Arduino Mega 2550</li>
-                                <li>Driver Controlador para 4 Motores DC (ponte H) L293D</li>
-                                <li>1 Módulo bluetooth h606</li>
-                                <li>2 resistores</li>
-                                <li>1 micro servo</li>
-                                <li>Jumpers MM e MF</li>
-                                <li>Fios de indução</li>
-                                <li>Buzzer - emissor de som</li>
-                                <li>Vareta de balão</li>
-                                <li>Fita led</li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
-                        </div>
+              <div class="container">
+                <div class="card custom-card">
+                  <div class="bg-sobre border border-success border-3 rounded">
+                    <div class="center-image">
+                        <img src="./img/rocket.svg" class="card-img-top" alt="Imagem de Hardware" style="width: 350px;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-light">Hardware</h5>
+                        <a href="#" class="btn mx-auto fw-bold botao-verde text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Ver Mais</a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -589,7 +567,7 @@
 
                     <button
                       type="submit"
-                      class="btn btn-success fw-bold py-3 border-0 w-100"
+                      class="btn botao-verde text-light fw-bold py-3 border-0 w-100"
                     >
                       Enviar
                     </button>
@@ -598,6 +576,7 @@
               </div>
             </div>
           </section>
+        </main>
 
           <footer class="bg-sobre text-center p-2 fw-bold footerButton">
             <section class="container p-4 pb-0 mb-4">
@@ -615,12 +594,59 @@
               Desenvolvimento <span class="texto-verde">EcoSharpness</span>
             </p>
           </footer>
+
+    <!-- canvas  -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header bg-sobre">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel"><a href="#home"
+          ><img
+            src="./img/logo-ecosharpness.png"
+            alt="Logo da empresa Eco-Sharpness"
+            class="logo-marca text-center"
+        /></a></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-navbar">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button botao-verde collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong class="text-light">Hardware</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-navbar"><div class="modal-body text-start">
+                <ul class="text-light" >
+                    <li>4 micro motores com redutor amarelo</li>
+                    <li>2 rodas e 1 roda boba</li>
+                    <li>6 pilhas AA no conector (total: 9v)</li>
+                    <li>1 Chave liga e desliga</li>
+                    <li>1 Arduino Mega 2550</li>
+                    <li>Driver Controlador para 4 Motores DC (ponte H) L293D</li>
+                    <li>1 Módulo bluetooth h606</li>
+                    <li>2 resistores</li>
+                    <li>1 micro servo</li>
+                    <li>Jumpers MM e MF</li>
+                    <li>Fios de indução</li>
+                    <li>Buzzer - emissor de som</li>
+                    <li>Vareta de balão</li>
+                    <li>Fita led</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
           <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
             crossorigin="anonymous"
           ></script>
         </div>
-    </main>
+
+
   </body>
 </html>

@@ -44,6 +44,10 @@
   .texto-navbar:hover {
     color: var(--text-hover) !important;
   }
+
+  .botao-verde {
+    background-color: var(--text-color)!important
+  }
   
   .logo-marca {
     width: 125px !important;

@@ -45,6 +45,10 @@ body {
   color: var(--text-hover) !important;
 }
 
+.botao-verde {
+  background-color: var(--text-color)!important
+}
+
 .logo-marca {
   width: 125px !important;
   height: 100px !important;
@@ -75,6 +79,17 @@ body {
   text-align: center;
   padding: 10px;
   font-size: 24px;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo personalizado para o card */
+.custom-card {
+  max-width: 350px;
+  margin: 0 auto; /* Centraliza o card horizontalmente */
 }
 
 .membros {
