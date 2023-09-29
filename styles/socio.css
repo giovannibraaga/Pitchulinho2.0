@@ -82,3 +82,14 @@
 .carousel-control-next-icon {
     background-color: black; 
 }
+
+.membros {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.custom-card {
+  max-width: 350px;
+  margin: 0 auto;
+}

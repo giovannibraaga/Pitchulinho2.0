@@ -74,22 +74,18 @@
             </div>
             <div class="offcanvas-body bg-sobre">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active texto-navbar fw-bold"
-                    aria-current="page"
-                    href="#porque"
-                    >Por que?</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active texto-navbar fw-bold"
-                    aria-current="page"
-                    href="#pesquisas"
-                    >Pesquisas</a
-                  >
-                </li>
+                <li class="nav-item dropdown texto-navbar">
+                  <a class="nav-link dropdown-toggle texto-navbar fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Informações
+                  </a>
+                  <ul class="dropdown-menu texto-verde bg-navbar">
+                    <li><a class="dropdown-item" href="#porque">Por que?</a></li>
+                    <li><a class="dropdown-item" href="#pesquisas">Pesquisas</a></li>
+                    <li><a class="dropdown-item" href="#marketing">Planejamento de Marketing</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#equipe">Equipe</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a
@@ -244,8 +240,343 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+              </div>              
       </section>
+
+      <section>
+        <h3
+          id="equipe"
+          class="bg-navbar text-center fw-bold texto-verde m-0 border-none bg-sobre py-3"
+        >
+          Equipe
+        </h3>
+      </section>
+
+      <section class="bg-navbar">
+        <div class="container pt-1 text-light">
+          <h2 class="text-center mt-5">Conheça a Equipe EcoSharpness</h2>
+          <p class="text-center pb-5">
+            A EcoSharpness é uma empresa composta por uma equipe de apaixonados por tecnologia e
+            sustentabilidade, comprometida em revolucionar o setor de robótica.
+            Nossa missão é criar robôs inovadores que não apenas automatizem
+            tarefas, mas também contribuam para a preservação do nosso planeta. Com
+            uma abordagem centrada na ecoeficiência, integramos práticas
+            sustentáveis em todos os aspectos do nosso trabalho, desde o design até
+            a produção. Acreditamos que a tecnologia pode ser uma força positiva
+            para o meio ambiente e a sociedade, e estamos determinados a liderar
+            essa mudança. Junte-se a nós em nossa jornada para um futuro mais limpo
+            e inteligente.
+          </p>
+    
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-4">
+              <div class="text-center">
+                <img
+                  src="./img/membros/Fernando.jpg"
+                  alt="Membro 1"
+                  class="img-fluid mb-2 membros"
+                  width="35px"
+                />
+                <h4>Fernando de Castro Mirandolla</h4>
+                <p>Engenheiro de Robótica</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-4">
+              <div class="text-center">
+                <img
+                  src="./img/membros/Giovanni.jpg"
+                  alt="Membro 2"
+                  class="img-fluid mb-2 membros"
+                  width="35px"
+                />
+                <h4>Giovanni Braga Bernardo</h4>
+                <p>Desenvolvedor de Software de Controle de Robô</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-4">
+              <div class="text-center">
+                <img
+                  src="./img/membros/Pedro.jpeg"
+                  alt="Membro 3"
+                  class="img-fluid mb-2 membros"
+                  width="35px"
+                />
+                <h4>Pedro Falcão Almeida</h4>
+                <p>Engenheiro de Visão Computacional</p>
+              </div>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="col-lg-6 col-md-6 col-sm-12 pb-4">
+              <div class="text-center">
+                <img
+                  src="./img/membros/Raphael.jpeg"
+                  alt="Membro 4"
+                  class="img-fluid mb-2 membros"
+                  width="35px"
+                />
+                <h4>Raphael Oliveira Batizati</h4>
+                <p>Cientista de Dados de Robótica</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 pb-4">
+              <div class="text-center">
+                <img
+                  src="./img/membros/Thiago.jpg"
+                  alt="Membro 5"
+                  class="img-fluid mb-2 membros"
+                  width="35px"
+                />
+                <h4>Thiago Farias Martins</h4>
+                <p>Especialista em Ética de Inteligência Artificial (IA)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3
+          id="marketing"
+          class="bg-navbar text-center fw-bold texto-verde m-0 border-none bg-sobre py-3"
+        >
+          Planejamento de marketing
+        </h3>
+      </section>
+
+
+      <section class="bg-navbar">
+        <div class="container py-5">
+        <div class="row">
+            <div class="col-md-3 pb-3">
+                <div class="card custom-card">
+                  <div class="bg-sobre border border-success border-2 text-light">
+                    <img src="./img/sociedade/content.svg" class="card-img-top" alt="Conteúdo de Qualidade e Educativo">
+                    <div class="card-body">
+                        <h6 class="card-title">Conteúdo de Qualidade e Educativo</h6>
+                        <button type="button" class="btn botao-verde text-light fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1">Detalhes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 pb-3">
+                <div class="card custom-card">
+                  <div class="bg-sobre border border-success border-2 text-light">
+                    <img src="./img/sociedade/social-media.svg" class="card-img-top" alt="Estratégia de Mídias Sociais">
+                    <div class="card-body">
+                        <h6 class="card-title">Estratégia de Mídias Sociais</h6>
+                        <button type="button" class="btn botao-verde text-light fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvas2">Detalhes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 pb-3">
+                <div class="card custom-card">
+                  <div class="bg-sobre border border-success border-2 text-light">
+                    <img src="./img/sociedade/seo.svg" class="card-img-top" alt="SEO (Otimização de Mecanismos de Busca)">
+                    <div class="card-body">
+                        <h6 class="card-title">Otimização de Mecanismos de Busca</h6>
+                        <button type="button" class="btn botao-verde text-light fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvas3">Detalhes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 pb-3">
+                <div class="card custom-card">
+                  <div class="bg-sobre border border-success border-2 text-light">
+                    <img src="./img/sociedade/leads.svg" class="card-img-top" alt="Imagem 4">
+                    <div class="card-body">
+                        <h6 class="card-title">Automação de Marketing</h6>
+                        <button type="button" class="btn botao-verde text-light fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvas4">Detalhes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Offcanvas 1 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas1">
+        <div class="offcanvas-header bg-sobre text-light ">
+            <h5 class="offcanvas-title">Conteúdo de Qualidade e Educativo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-navbar">
+            <!-- Accordions 1 -->
+            <div class="accordion" id="accordion1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                          Blog de Tecnologia: 
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading1" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Criar um blog de tecnologia no site da empresa, atualizado regularmente com artigos educativos sobre robótica, tendências do setor, estudos de caso e guias práticos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          Vídeos Instrucionais:
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading2" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Produzir vídeos informativos e instrucionais sobre o uso de robôs, demonstrando as capacidades e os benefícios dos produtos da empresa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                          Webinars Interativos:
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading3" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Realizar webinars mensais para educar o público-alvo sobre os benefícios da automação e robótica em diversos setores, destacando as soluções da empresa.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas 2 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas2">
+        <div class="offcanvas-header bg-sobre text-light ">
+            <h5 class="offcanvas-title">Estratégia de Mídias Sociais</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-navbar">
+            <!-- Accordions 2 -->
+            <div class="accordion" id="accordion2">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                          Presença Ativa nas Redes Sociais:
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading1" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Manter perfis ativos nas principais redes sociais, como LinkedIn, Twitter, Facebook e Instagram, compartilhando regularmente conteúdo relevante e interagindo com seguidores.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          Anúncios Segmentados:
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading2" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Utilizar anúncios pagos nas redes sociais para alcançar um público-alvo específico com base em critérios demográficos, comportamentais e de interesse.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                          Influenciadores do Setor:
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading3" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Colaborar com influenciadores da indústria de tecnologia e robótica para promover os produtos e compartilhar análises positivas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas 3 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas3">
+        <div class="offcanvas-header bg-sobre text-light ">
+            <h5 class="offcanvas-title">SEO (Otimização de Mecanismos de Busca)</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-navbar">
+            <!-- Accordions 3 -->
+            <div class="accordion" id="accordion3">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                          Otimização de Conteúdo:
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading1" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Garantir que o conteúdo do site esteja otimizado para palavras-chave relevantes, tornando-o mais visível nos resultados de busca orgânica do Google.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          Link Building:
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading2" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Desenvolver uma estratégia de link building para aumentar a autoridade do site e melhorar sua classificação nos mecanismos de busca.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas 4 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas4">
+        <div class="offcanvas-header bg-sobre text-light ">
+            <h5 class="offcanvas-title">Automação de Marketing e Nutrição de Leads</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-navbar">
+            <!-- Accordions 4 -->
+            <div class="accordion" id="accordion4">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            Automação de E-mail:
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading1" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Implementar uma plataforma de automação de marketing para nutrir leads, enviando e-mails personalizados com conteúdo relevante e informações sobre os produtos da empresa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button botao-verde fw-bold border text-light border-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          Remarketing:
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading2" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Utilizar anúncios de remarketing para alcançar leads que visitaram o site, mas não converteram, incentivando-os a retornar e tomar medidas
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button botao-verde fw-bold text-light"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                          Análise de Dados:
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse bg-navbar text-light" aria-labelledby="heading3" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                          Monitorar constantemente o desempenho das campanhas usando ferramentas de análise, ajustando estratégias com base em métricas como taxa de conversão, taxa de cliques e engajamento nas redes sociais.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
       <footer class="bg-sobre text-center p-2 fw-bold footerButton">
         <section class="container p-4 pb-0 mb-4">
@@ -260,13 +591,10 @@
           ></a>
         </section>
 
-        <p class="text-light mt-3 m-0">
+        <p class="text-light mt-3 m-0 pb-4">
           <i class="bi bi-c-circle" style="color: #008000"></i>
-          <span class="texto-verde">Pitchulinho 2023</span> - Todos os direitos
+          <span class="texto-verde">EcoSharpness 2023</span> - Todos os direitos
           reservados
-        </p>
-        <p class="text-light mb-3 m-0">
-          Desenvolvimento <span class="texto-verde">EcoSharpness</span>
         </p>
       </footer>
       <script
