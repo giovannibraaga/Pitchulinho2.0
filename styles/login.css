@@ -1,0 +1,58 @@
+:root {
+    --bg-color: #3c3c3c;
+    --bg-sobre: #313131;
+    --text-color: #008000;
+    --text-hover: #00aa00;
+  }
+
+ body {
+    background-color: var(--bg-sobre)!important
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.26vw;
+    height: 0vh;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    background: #004d00;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #008000;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00aa00;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .bg-navbar {
+    background-color: var(--bg-color);
+  }
+  
+  .texto-verde {
+    color: var(--text-color) !important;
+  }
+  
+  .texto-navbar {
+    color: var(--text-color) !important;
+  }
+  
+  .texto-navbar:hover {
+    color: var(--text-hover) !important;
+  }
+  
+  .botao-verde {
+    background-color: var(--text-color)!important
+  }
+
+  .bg-sobre {
+    background-color: var(--bg-sobre);
+  }
